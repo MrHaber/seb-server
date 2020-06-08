@@ -26,5 +26,10 @@ INSERT INTO configuration_attribute VALUES
     (1126, 'proctoringDetectTalking', 'CHECKBOX', null, null, null, null, 'true'),
     (1127, 'proctoringDetectTalkingDisplay', 'CHECKBOX', null, null, null, null, 'true'),
     (1128, 'showProctoringViewButton', 'CHECKBOX', null, null, null, null, 'true'),
-    (1129, 'remoteProctoringViewShow', 'SINGLE_SELECTION', null, '0,1,2,3', null, null, '0')
+    (1129, 'remoteProctoringViewShow', 'SINGLE_SELECTION', null, '0,1,2,3', null, null, '0'),
+    
+    (1130, 'jitsiMeetReceiveAudio', 'CHECKBOX', null, null, null, null, 'false'),
+    (1131, 'jitsiMeetReceiveVideo', 'CHECKBOX', null, null, null, null, 'false'),
+    (1132, 'jitsiMeetSendAudio', 'CHECKBOX', null, null, null, null, 'true'),
+    (1133, 'jitsiMeetSendVideo', 'CHECKBOX', null, null, null, null, 'true')
     ;
